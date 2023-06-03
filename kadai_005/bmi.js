@@ -5,8 +5,7 @@ let height;
 
 function bmiCalc(weight, height) {
     const bmi = weight / (height * height)
-    console.log(bmi)
-    return bmi
+    return bmi;
 }
 
-bmiCalc(70, 1.7)
+console.log(bmiCalc(70, 1.7));
