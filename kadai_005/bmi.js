@@ -8,4 +8,4 @@ function bmiCalc(weight, height) {
     return bmi;
 }
 
-console.log(bmiCalc(70, 1.7));
+console.log(bmiCalc(68, 1.7));
