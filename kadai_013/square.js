@@ -3,8 +3,8 @@
 const num = 10;
 
 function multiplierCalc(num) {
-    const multiNum = num ** 2;
-    return multiNum;
+    const multNum = num ** 2;
+    return multNum;
 }
 
 const result = multiplierCalc(num);
