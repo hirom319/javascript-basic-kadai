@@ -1,7 +1,12 @@
 'use strict';
 
-const multiplierCalc = function(num)  {
-    console.log(num ** 2)
+const num = 10;
+
+function multiplierCalc(num) {
+    const multiNum = num ** 2;
+    return multiNum;
 }
 
-multiplierCalc(10);
+const result = multiplierCalc(num);
+
+console.log(result);
